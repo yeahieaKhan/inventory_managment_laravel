@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string('email',50);
             $table->string('password',30);
             $table->string('number',50);
-            $table->string('otp',10);
+            $table->string('otp',50);
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
 
